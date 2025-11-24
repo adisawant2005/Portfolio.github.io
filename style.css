@@ -22,11 +22,13 @@ body{
   left: 0;
   top: 0;
   z-index: -1;
+  width: auto;
+  height: 100%;
 }
 
 
 
-@media (max-aspect-ratio: 16/9){
+/* @media (max-aspect-ratio: 16/9){
   .back-vid{
     width: auto;
     height: 100%;
@@ -38,7 +40,7 @@ body{
     width: 100%;
     height: auto;
   }
-}
+} */
 
 
 
@@ -236,10 +238,10 @@ nav a:hover ,
 
 
 @media (min-width: 1220px) {
+  
   body{
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    height: fit-content;
+    overflow: auto;
   }
 
   .info-sec{
@@ -247,6 +249,18 @@ nav a:hover ,
   }
 }
 
+
+@media (max-width: 1220px) and (min-width: 980px) {
+
+  body{
+    height: fit-content;
+    overflow: auto;
+  }
+
+  .info-sec{
+    margin-top: 30px;
+  }
+}
 
 
 @media (max-width: 980px) {
