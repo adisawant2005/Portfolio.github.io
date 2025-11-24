@@ -177,6 +177,10 @@ nav a:hover ,
   box-shadow: 0 0 10px #4acfee;
 }
 
+.hero-info{
+  margin-bottom: 20px;
+}
+
 .hero-img{
   width: 400px;
   height: 400px;
